@@ -12,7 +12,7 @@
 
 <style lang="postcss" scoped>
 nav {
-  @apply flex items-end justify-end space-x-4 px-5 py-9 text-slate-400;
+  @apply flex items-end justify-end space-x-4 px-5 py-9 font-bold text-slate-400;
 
   & .router-link-active {
     @apply underline underline-offset-4;
