@@ -22,7 +22,7 @@ const password = ref('')
   }
 }
 .submit {
-  @apply mx-44 mt-5 rounded-lg bg-yellow-500 py-2 px-4 text-xl font-semibold text-slate-300 shadow-lg hover:bg-white hover:text-yellow-500;
+  @apply mx-44 mt-5 rounded-lg bg-yellow-400 py-2 px-4 text-xl font-semibold text-slate-400 shadow-lg hover:bg-white hover:text-yellow-700;
 }
 .register {
   @apply mt-3 text-white;
