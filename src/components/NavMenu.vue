@@ -1,19 +1,18 @@
 <template>
   <nav>
-    <RouterLink to="/">Home</RouterLink>
-    <RouterLink to="/">About</RouterLink>
-    <RouterLink to="/Login">Login</RouterLink>
-    <RouterLink to="/">Topics</RouterLink>
-    <RouterLink to="/">Comments</RouterLink>
-    <RouterLink to="/">Events</RouterLink>
-    <RouterLink to="/">Polls</RouterLink>
+    <div class="menu-item"><router-link :to="{ name: 'Home' }">Home</router-link></div>
+    <div class="menu-item"><router-link :to="{ name: 'About' }">About</router-link></div>
+    <div class="menu-item"><router-link :to="{ name: 'Contact' }">Contact</router-link></div>
+    <div class="menu-item"><router-link :to="{ name: 'Login' }">Login</router-link></div>
   </nav>
 </template>
 
 <style lang="postcss" scoped>
 nav {
   @apply flex items-end justify-end space-x-4 px-5 py-9 font-bold text-slate-400;
-
+  .menu-item {
+    @apply items-center justify-center;
+  }
   & .router-link-active {
     @apply underline underline-offset-4;
   }
