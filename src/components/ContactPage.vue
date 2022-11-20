@@ -2,35 +2,31 @@
   <div class="wrapper">
     <h1>Contact Us!</h1>
   </div>
-  <div>
-    <div class="phone">Phone Number</div>
-    <h4 class="number">(956) 246-1357</h4>
+  <div class="cards">
+    <div class="card">
+      <div class="card-content">
+        <p class="category">Phone</p>
+        <h2>Phone Number</h2>
+        <p>(956) 246-1357</p>
+      </div>
+    </div>
   </div>
-
-  <div>
-    <div class="email">Email</div>
-    <h3 class="address">emailexample@address.com</h3>
-  </div>
-  <div class="hours">Active Hours:</div>
 </template>
 
 <style lang="postcss" scoped>
 .wrapper {
-  @apply items-start justify-start px-5 text-6xl font-bold text-yellow-600;
+  @apply text-center text-6xl font-bold text-black;
 }
-.phone {
-  @apply items-start justify-start py-10 px-5 text-3xl font-semibold  text-yellow-400;
+.cards {
+  @apply grid auto-rows-auto grid-cols-3 gap-4 py-40;
 }
-.number {
-  @apply px-5 text-lg text-yellow-400 underline;
+.card {
+  @apply rounded border-2 bg-slate-100 p-3;
 }
-.email {
-  @apply items-start justify-start py-8 px-5 text-3xl font-semibold text-yellow-400;
+.card-content {
+  @apply flex flex-col text-sm;
 }
-.address {
-  @apply px-5 text-lg text-yellow-400 underline;
-}
-.hours {
-  @apply items-start justify-start py-8 px-5 text-3xl font-semibold text-yellow-400;
+.category {
+  @apply text-base font-semibold uppercase text-red-500;
 }
 </style>
