@@ -12,6 +12,6 @@ const title = ref('Fandom Forum Site')
 
 <style lang="postcss" scoped>
 .image {
-  @apply mx-auto px-4 py-14 shadow-slate-800 drop-shadow-lg;
+  @apply mx-auto px-4 py-14;
 }
 </style>
