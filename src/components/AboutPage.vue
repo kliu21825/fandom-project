@@ -3,6 +3,7 @@
     <h1>About Fandom Forum Site<br /></h1>
   </div>
   <div class="message">At Fandom Forum, feel free to take a look at our topics shown on this website.<br /></div>
+  <img class="overload" img src="/public/fandom-overload.jpeg" />
 </template>
 
 <style lang="postcss" scoped>
@@ -12,7 +13,7 @@
 .message {
   @apply flex items-center justify-center py-6 text-xl italic text-slate-400;
 }
-.symbol {
-  @apply flex items-center justify-center py-5;
+.overload {
+  @apply mx-auto h-64;
 }
 </style>
