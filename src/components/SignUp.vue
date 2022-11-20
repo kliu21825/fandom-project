@@ -1,6 +1,5 @@
 <script setup>
 import { ref } from 'vue'
-
 const username = ref('')
 const password = ref('')
 </script>
@@ -8,16 +7,18 @@ const password = ref('')
 <template>
   <body>
     <div class="login">
-      <div class="title">Login</div>
+      <div class="title">Sign Up</div>
       <form class="login-form" @submit.prevent="logUserIn">
+        <div class="textbox">
+          <input v-model="name" type="text" placeholder="Name" />
+        </div>
         <div class="textbox">
           <input v-model="username" type="text" placeholder="Email" />
         </div>
         <div class="textbox">
           <input v-model="password" type="password" placeholder="Password" />
         </div>
-        <button type="submit" class="submit">Log In</button>
-        <button type="sign-up" class="register">New user? Sign up for free!</button>
+        <button type="submit" class="submit">Register</button>
       </form>
     </div>
   </body>
