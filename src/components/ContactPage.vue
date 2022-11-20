@@ -2,6 +2,9 @@
   <div class="wrapper">
     <h1>Contact Us!</h1>
   </div>
+  <div class="message">
+    <p>If you have any questions about this website, feel free to contact us.</p>
+  </div>
   <section class="cards">
     <div class="card">
       <div class="card-content">
@@ -23,7 +26,7 @@
       <div class="card-content">
         <img class="logo" img src="/calendar.svg" alt="logo" />
         <p class="category">Active Hours</p>
-        <h2>Hours</h2>
+        <h2>9am - 5pm</h2>
       </div>
     </div>
   </section>
@@ -33,8 +36,11 @@
 .wrapper {
   @apply text-center text-6xl font-bold text-black;
 }
+.message {
+  @apply py-2 text-center text-base font-bold text-black;
+}
 .cards {
-  @apply mx-auto grid h-3/4 w-3/4 auto-rows-auto grid-cols-3 gap-4 py-40;
+  @apply mx-auto grid h-3/4 w-3/4 auto-rows-auto grid-cols-3 gap-4 py-28;
 }
 .logo {
   @apply mx-auto h-1/2 w-1/2;
