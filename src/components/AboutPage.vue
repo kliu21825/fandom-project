@@ -1,8 +1,8 @@
 <template>
   <div class="wrapper">
-    <h1>About Fandom Forum Site</h1>
+    <h1>About Fandom Forum Site<br /></h1>
   </div>
-  <div class="message">At Fandom Forum, feel free to take a look at our topics shown on this website.</div>
+  <div class="message">At Fandom Forum, feel free to take a look at our topics shown on this website.<br /></div>
 </template>
 
 <style lang="postcss" scoped>
@@ -11,5 +11,8 @@
 }
 .message {
   @apply flex items-center justify-center py-6 text-xl italic text-slate-400;
+}
+.symbol {
+  @apply flex items-center justify-center py-5;
 }
 </style>
