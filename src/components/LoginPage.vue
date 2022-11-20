@@ -14,7 +14,7 @@ const password = ref('')
   </form>
 </template>
 
-<style scoped lang="postcss">
+<style lang="postcss" scoped>
 .login-form {
   @apply mx-auto mt-56 flex max-w-lg flex-col gap-4 rounded-md p-3 shadow-lg;
   & input {
