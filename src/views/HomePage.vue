@@ -7,7 +7,7 @@ const title = ref('Fandom Forum Site')
   <main class="flex items-start justify-start">
     <h1 class="px-5 font-mono text-6xl font-bold text-black">{{ title }}</h1>
   </main>
-  <img class="image" img src="fandom.jpg" />
+  <img class="image" img src="/public/fandom.jpg" />
   <div class="welcome">Welcome to the Fandom!</div>
   <div class="text">Feel free to check out this site at anytime you want!</div>
 </template>
