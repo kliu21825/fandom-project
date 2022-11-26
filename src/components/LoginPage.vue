@@ -17,7 +17,9 @@ const password = ref('')
           <input v-model="password" type="password" placeholder="Password" />
         </div>
         <button type="submit" class="submit">Log In</button>
-        <button type="sign-up" class="register">New user? Sign up for free!</button>
+        <router-link :to="{ path: '/signup' }">
+          <button type="sign-up" class="register">New user? Sign up for free!</button></router-link
+        >
       </form>
     </div>
   </body>

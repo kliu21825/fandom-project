@@ -1,5 +1,6 @@
 <template>
   <nav>
+    <div class="title">Fandom Forum Site</div>
     <div class="menu-item"><router-link :to="{ name: 'Home' }">Home</router-link></div>
     <div class="menu-item"><router-link :to="{ name: 'About' }">About</router-link></div>
     <div class="menu-item"><router-link :to="{ name: 'Contact' }">Contact</router-link></div>
