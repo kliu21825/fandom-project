@@ -10,9 +10,12 @@
 
 <style lang="postcss" scoped>
 nav {
-  @apply flex items-end justify-end space-x-4 px-5 py-4 font-bold text-black;
+  @apply flex items-start justify-between space-x-2 px-5 py-4 text-black;
+  .title {
+    @apply text-lg font-bold;
+  }
   .menu-item {
-    @apply items-center justify-center;
+    @apply items-end justify-end font-semibold;
   }
   & .router-link-active {
     @apply underline underline-offset-4;

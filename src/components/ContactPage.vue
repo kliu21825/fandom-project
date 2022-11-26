@@ -10,7 +10,6 @@
       <div class="card-content">
         <img class="logo" img src="/phone.svg" alt="logo" />
         <p class="category">Phone</p>
-        <h2>Phone Number</h2>
         <p>(956) 246-1357</p>
       </div>
     </div>
@@ -18,15 +17,15 @@
       <div class="card-content">
         <img class="logo" img src="/email.svg" alt="logo" />
         <p class="category">Email</p>
-        <h2>Email Address</h2>
         <p>email@address.com</p>
       </div>
     </div>
     <div class="card">
       <div class="card-content">
         <img class="logo" img src="/calendar.svg" alt="logo" />
-        <p class="category">Active Hours</p>
-        <h2>9am - 5pm</h2>
+        <p class="category">Active Online Hours</p>
+        <h2>Monday - Saturday: 9AM - 5PM</h2>
+        <h2>Sunday: 8AM - 8PM</h2>
       </div>
     </div>
   </section>
