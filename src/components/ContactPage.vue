@@ -33,7 +33,7 @@
 
 <style lang="postcss" scoped>
 .wrapper {
-  @apply text-center text-6xl font-bold text-black;
+  @apply text-center text-5xl font-bold text-black;
 }
 .message {
   @apply py-2 text-center text-base font-bold text-black;
