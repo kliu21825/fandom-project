@@ -27,7 +27,7 @@ const password = ref('')
 
 <style lang="postcss" scoped>
 body {
-  @apply items-center object-center py-16;
+  @apply items-center object-center py-14;
 }
 .login {
   @apply mx-auto h-3/4 w-1/4 justify-center rounded-3xl bg-zinc-900 p-16 text-center;

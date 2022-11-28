@@ -39,7 +39,7 @@
   @apply py-2 text-center text-base font-bold text-black;
 }
 .cards {
-  @apply mx-auto grid h-3/4 w-3/4 auto-rows-auto grid-cols-3 gap-4 py-28;
+  @apply mx-auto grid h-1/4 w-3/4 auto-rows-auto grid-cols-3 gap-4 py-28;
 }
 .logo {
   @apply mx-auto h-1/2 w-1/2;
