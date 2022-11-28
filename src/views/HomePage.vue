@@ -12,6 +12,6 @@
   @apply flex items-center justify-center py-6 text-3xl font-bold text-black;
 }
 .text {
-  @apply flex items-center justify-center py-6 font-semibold text-black;
+  @apply flex items-center justify-center py-6 text-center font-semibold text-black;
 }
 </style>

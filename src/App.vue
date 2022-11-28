@@ -11,6 +11,6 @@ import NavMenu from '@/components/NavMenu.vue'
 
 <style lang="postcss" scoped>
 main {
-  @apply flex h-screen bg-red-600;
+  @apply h-screen bg-gradient-to-t from-red-500 via-white to-black;
 }
 </style>

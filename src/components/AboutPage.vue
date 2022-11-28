@@ -11,7 +11,7 @@
   @apply flex items-center justify-center text-4xl font-bold text-slate-800;
 }
 .message {
-  @apply flex items-center justify-center py-8 text-lg  font-semibold text-slate-800;
+  @apply flex items-center justify-center py-5 text-lg  font-semibold text-slate-800;
 }
 .image {
   @apply mx-auto h-64;
