@@ -1,6 +1,6 @@
 <template>
   <div class="title">
-    <h1>About Fandom Forum Site<br /></h1>
+    <h1>About<br /></h1>
   </div>
   <div class="message">At Fandom Forum, feel free to take a look at our topics shown on this website.<br /></div>
   <img class="image" img src="/public/fandom-overload.jpeg" />
