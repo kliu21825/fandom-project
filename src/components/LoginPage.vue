@@ -1,8 +1,18 @@
 <script setup>
 import { ref } from 'vue'
+import { useAuth } from '@/composables/useAuth'
+const { login, logout } = useAuth()
 
 const username = ref('')
 const password = ref('')
+
+const logUserIn = () => {
+  if (login(username.value, password.value)) {
+    console.log(username.value)
+  } else {
+    logout()
+  }
+}
 </script>
 
 <template>
