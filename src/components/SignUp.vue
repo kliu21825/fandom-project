@@ -1,7 +1,21 @@
 <script setup>
 import { ref } from 'vue'
+import { useAuth } from '@/composables/useAuth'
+import router from '@/router'
+const { signup } = useAuth()
+
 const username = ref('')
 const password = ref('')
+
+const logUserIn = async () => {
+  if (await signup(username.value, password.value)) {
+    if (router.query.redirect) {
+      router.push(router.query.redirect)
+    } else {
+      router.push({ name: 'Home' })
+    }
+  }
+}
 </script>
 
 <template>
@@ -9,9 +23,6 @@ const password = ref('')
     <div class="login">
       <div class="title">Sign Up</div>
       <form class="login-form" @submit.prevent="logUserIn">
-        <div class="textbox">
-          <input v-model="name" type="text" placeholder="Name" />
-        </div>
         <div class="textbox">
           <input v-model="username" type="text" placeholder="Email" />
         </div>

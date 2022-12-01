@@ -59,10 +59,10 @@ body {
 .login-form input {
   @apply h-14 w-full rounded-lg bg-transparent text-lg text-red-500;
 }
-.login-form submit {
-  @apply bg-transparent;
+.register {
+  @apply bg-transparent text-black underline;
 }
-.login-form button {
+.submit {
   @apply h-14 w-full cursor-pointer rounded-lg bg-white font-medium hover:bg-red-600 hover:text-white hover:shadow-md hover:shadow-zinc-800;
 }
 </style>
