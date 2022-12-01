@@ -14,6 +14,7 @@ const brand = ref(import.meta.env.VITE_APP_NAME)
       </RouterLink>
     </div>
     <div v-if="isAuthenticated">
+      <strong>Welcome back!!</strong>
       <router-link :to="{ name: 'Book Now' }" class="menu-item">Book Now</router-link>
       <button class="menu-item" @click="logout">Logout</button>
     </div>
