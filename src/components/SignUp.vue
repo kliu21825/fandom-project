@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-import { useAuth } from '@/composables/useAuth'
+import { useAuth } from '@/components/useAuth'
 import router from '@/router'
 const { signup } = useAuth()
 
