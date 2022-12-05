@@ -21,7 +21,7 @@ const brand = ref(import.meta.env.VITE_APP_NAME)
     </div>
     <div v-else>
       <router-link :to="{ name: 'Home' }" class="menu-item">Home</router-link>
-      <router-link :to="{ name: 'Services' }" class="menu-item">About</router-link>
+      <router-link :to="{ name: 'About' }" class="menu-item">About</router-link>
       <router-link :to="{ name: 'Contact' }" class="menu-item">Contact</router-link>
       <router-link :to="{ name: 'Login' }" class="menu-item">Login</router-link>
     </div>
