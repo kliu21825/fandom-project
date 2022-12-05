@@ -35,7 +35,7 @@ nav {
     @apply text-5xl font-bold;
   }
   .menu-item {
-    @apply items-center justify-center space-x-2 px-5 font-semibold text-slate-800;
+    @apply items-center justify-center space-x-2 px-5 font-semibold text-slate-900;
   }
   & .router-link-active {
     @apply font-bold underline underline-offset-4;
