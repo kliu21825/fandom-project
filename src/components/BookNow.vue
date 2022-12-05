@@ -63,6 +63,6 @@ body {
   @apply text-black;
 }
 .submit {
-  @apply h-14 w-full cursor-pointer rounded-lg bg-red-500 font-medium hover:bg-zinc-400 hover:text-black hover:shadow-md hover:shadow-zinc-600;
+  @apply h-14 w-full cursor-pointer rounded-lg bg-red-500 font-medium hover:bg-white hover:text-black hover:shadow-md hover:shadow-zinc-600;
 }
 </style>
