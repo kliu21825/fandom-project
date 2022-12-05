@@ -36,28 +36,28 @@
 
 <style lang="postcss" scoped>
 .wrapper {
-  @apply text-center text-3xl font-bold text-black;
+  @apply text-center text-3xl font-bold text-white;
 }
 .message {
-  @apply py-4 text-center text-base font-medium italic text-black;
+  @apply py-4 text-center text-base font-medium italic text-white;
 }
 body {
   @apply items-center object-center py-6;
 }
 .appointment {
-  @apply mx-auto h-1/5 w-1/3 justify-center rounded-3xl bg-zinc-700 p-12 text-center;
+  @apply mx-auto h-1/5 w-1/3 justify-center rounded-3xl bg-zinc-600 p-12 text-center;
 }
 .title {
-  @apply mx-auto items-center justify-center py-2 text-2xl font-semibold text-black;
+  @apply mx-auto items-center justify-center py-2 text-2xl font-semibold text-white;
 }
 .appointment-form {
   @apply m-0 grid w-full place-items-center gap-2;
 }
 .textbox {
-  @apply relative h-14 rounded-lg border-black;
+  @apply relative h-14 rounded-lg border-white;
 }
 .dropdown {
-  @apply text-black;
+  @apply text-white;
 }
 .dropdown-content {
   @apply text-black;
