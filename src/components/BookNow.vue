@@ -45,7 +45,7 @@ body {
   @apply items-center object-center py-6;
 }
 .appointment {
-  @apply mx-auto h-1/5 w-1/3 justify-center rounded-3xl bg-zinc-600 p-12 text-center;
+  @apply mx-auto h-1/5 w-1/3 justify-center rounded-3xl bg-zinc-900 p-12 text-center;
 }
 .title {
   @apply mx-auto items-center justify-center py-2 text-2xl font-semibold text-white;
@@ -63,6 +63,6 @@ body {
   @apply text-black;
 }
 .submit {
-  @apply h-14 w-full cursor-pointer rounded-lg bg-red-500 font-medium hover:bg-white hover:text-black hover:shadow-md hover:shadow-zinc-600;
+  @apply h-14 w-full cursor-pointer rounded-lg bg-red-500 font-medium hover:bg-white hover:text-black hover:shadow-md hover:shadow-zinc-900;
 }
 </style>
