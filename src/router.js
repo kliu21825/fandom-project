@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import { useAuth } from '@/composables/useAuth'
+
 const { isAuthenticated } = useAuth()
 
 import HomePage from '@/views/HomePage.vue'
@@ -8,6 +9,7 @@ import Contact from '@/components/ContactPage.vue'
 import Login from '@/components/LoginPage.vue'
 import SignUp from '@/components/SignUp.vue'
 import BookNow from '@/components/BookNow.vue'
+import ThankYou from '@/components/ThankYou.vue'
 
 const routes = [
   { path: '/', name: 'Home', component: HomePage },
@@ -16,6 +18,7 @@ const routes = [
   { path: '/', name: 'Login', component: Login },
   { path: '/signup', name: 'SignUp', component: SignUp },
   { path: '/', name: 'Book Now', component: BookNow },
+  { path: '/', name: 'Thank You', component: ThankYou },
 ]
 
 const router = createRouter({

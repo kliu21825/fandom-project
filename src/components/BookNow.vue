@@ -1,4 +1,9 @@
-<script setup></script>
+<script setup>
+import router from '@/router'
+const submit = async () => {
+  router.push({ name: 'Thank You' })
+}
+</script>
 
 <template>
   <div class="wrapper">
@@ -10,15 +15,15 @@
   <body>
     <div class="appointment">
       <div class="title">Book Now</div>
-      <form class="appointment-form">
+      <form class="appointment-form" @submit.prevent="submit">
         <div class="textbox">
-          <input v-model="address" type="text" placeholder="Address" />
+          <input v-model="address" type="text" placeholder="Address" required />
         </div>
         <div class="textbox">
-          <input v-model="phone" type="tel" placeholder="Phone Number" />
+          <input v-model="phone" type="tel" placeholder="Phone Number" required />
         </div>
         <div class="date">
-          <input v-model="date" type="date" />
+          <input v-model="date" type="date" required />
         </div>
 
         <div class="dropdown-content">
