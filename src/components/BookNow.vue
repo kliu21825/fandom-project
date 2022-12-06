@@ -7,7 +7,7 @@ const submit = async () => {
 
 <template>
   <div class="wrapper">
-    <h1>CHECK OUT WHAT WE DO IN THIS SERVER IN OUR COMPANY!</h1>
+    <h1>CHECK OUT WHAT WE DO IN THIS SERVER INSIDE OUR COMPANY!</h1>
   </div>
   <div class="message">
     <p>Please fill out the form below to schedule an appointment with us.</p>
