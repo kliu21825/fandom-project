@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="card">
-      <img class="card-img" src="/checkmark.png" />
+      <img class="card-img" src="/check-mark.png" />
       <h2 class="thanks">Thank you!</h2>
       <p class="message">Thank you for scheduling an appointment with us!</p>
     </div>
