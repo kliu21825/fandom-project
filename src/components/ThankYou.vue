@@ -3,7 +3,7 @@
     <div class="card">
       <img class="card-img" src="/check-mark.png" />
       <h2 class="thanks">Thank you!</h2>
-      <p class="message">Thank you for scheduling an appointment with us!</p>
+      <p class="message">Thank you for scheduling an appointment with us! You will be contacted as soon as possible.</p>
     </div>
   </div>
 </template>
