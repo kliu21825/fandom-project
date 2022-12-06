@@ -52,7 +52,7 @@ body {
   @apply mx-auto h-1/5 w-1/3 justify-center rounded-3xl bg-zinc-900 p-12 text-center;
 }
 .title {
-  @apply mx-auto items-center justify-center text-2xl font-semibold text-black;
+  @apply mx-auto items-center justify-center text-2xl font-semibold text-white;
 }
 .appointment-form {
   @apply m-0 grid w-full place-items-center gap-2;
