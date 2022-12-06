@@ -2,7 +2,7 @@
 
 <template>
   <div class="wrapper">
-    <h1>CHECK OUT WHAT WE DO IN THIS SERVER!</h1>
+    <h1>CHECK OUT WHAT WE DO IN THIS SERVER IN OUR COMPANY!</h1>
   </div>
   <div class="message">
     <p>Please fill out the form below to schedule an appointment with us.</p>
@@ -40,10 +40,10 @@
 
 <style lang="postcss" scoped>
 .wrapper {
-  @apply text-center text-3xl font-bold text-white;
+  @apply text-center text-3xl font-bold text-black;
 }
 .message {
-  @apply py-4 text-center text-base font-medium italic text-white;
+  @apply py-4 text-center text-base font-medium italic text-black;
 }
 body {
   @apply items-center object-center;
@@ -52,7 +52,7 @@ body {
   @apply mx-auto h-1/5 w-1/3 justify-center rounded-3xl bg-zinc-900 p-12 text-center;
 }
 .title {
-  @apply mx-auto items-center justify-center text-2xl font-semibold text-white;
+  @apply mx-auto items-center justify-center text-2xl font-semibold text-black;
 }
 .appointment-form {
   @apply m-0 grid w-full place-items-center gap-2;
