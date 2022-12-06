@@ -13,7 +13,7 @@
   @apply h-14 w-full cursor-pointer rounded-lg bg-white py-4 font-medium hover:bg-red-500 hover:text-black hover:shadow-md hover:shadow-zinc-900;
 }
 .card {
-  @apply mx-auto h-1/5 w-1/4 justify-center rounded-3xl bg-slate-300 p-16 text-center;
+  @apply mx-auto h-1/5 w-1/4 justify-center rounded-3xl bg-slate-100 p-16 text-center;
 }
 .container {
   @apply justify-center rounded-md object-center py-4;
